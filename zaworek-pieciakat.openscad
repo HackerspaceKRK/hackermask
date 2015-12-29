@@ -1,0 +1,68 @@
+$awh=12; //wysokość szpanu na dzielni
+$awd=2; //grubość nakrętki... sitka... znaczy no, zatyczki z dziurkami
+$awfn=5; //kątność
+$ziemniak=40; //jednostka naturalna Microsoft Office
+$szparka=0.25; //0.1 to "ciasno, trza dremelki", 0.2 to "ciasno, ale wejdzie z nożem", 0.25 to "mam nadzieję że będzie OK"
+$makaron=15;
+
+//na pewno nie czapeczka
+translate([-$ziemniak/2,0,0]){
+difference(){
+	union(){
+		cylinder($awh,18,18, $fn=$awfn);
+		translate([0,0,$awh-$awd]){
+			cylinder($awd,15,19,$fn=30);
+		}
+	}
+	translate([0,0,$awd]){
+		cylinder($awh*2,$makaron+$szparka,$makaron+$szparka, $fn=$awfn);
+	}
+	for( angle = [0,1,2,3,4,5] ){
+		rotate(45 - 360/5 * angle){
+			translate([-0.5,0,$awd]){
+				cube( [14,20,$awh-7] );
+			}
+		}
+	}
+}
+}
+//absolutnie nie czapeczka
+translate([$ziemniak/2,0,0]){
+union(){
+	difference(){
+		//awsom zaworek dizanj kopyrajt hehespejs
+		union(){
+			difference(){
+				cylinder($awh,$makaron,$makaron, $fn=$awfn);
+				//innerkółko, co by się ładnie opierał kawałek rękawiczki
+				translate([0,0,$awh-1]){
+					cylinder($awh-1,14,14, $fn=$awfn);
+				}
+			}
+			//outerkółko, co by się fajnie kleiło do maski
+			cylinder(2,15,19, $fs=1);
+		}
+		//z dziurką w środku, co by dobrze się dmuchało
+		translate([0,0,-1]){
+			cylinder($awh*2,11,9);
+		}
+	}
+	//szprychy w feldze
+	for( num = [0,1,2,3,4] ){
+		rotate(55 - 360/5 * num){
+			translate([-0.5,0,0]){
+				cube( [1,11,$awh-1] );
+			}
+		}
+	}
+	//podcycek, co by sie trzymało
+	translate([0,0,$awh-3]){
+		cylinder(2,1,3, $fs=0.2);
+	}
+	//nadcycek, co by się miało co urwać
+	translate([0,0,$awh-1]){
+		cylinder( 1.5,1.5,2, $fs=0.2);
+	}
+	
+}
+}
