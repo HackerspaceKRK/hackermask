@@ -17,6 +17,8 @@ In the mean time, you can try to source proper neoprene - not one which has unre
 
 ## Air valve
 
+![Render of valve](https://raw.githubusercontent.com/HackerspaceKRK/smogmask/master/zaworek-pieciakat.png)
+
 See `zaworek-pieciakat.openscad` file.
 It is prepared to be 3D-printed, you'll need to add membrane cut from not-very-thick rubber (kitchen gloves works well).
 
