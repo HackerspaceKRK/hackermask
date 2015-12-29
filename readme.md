@@ -2,6 +2,8 @@
 
 This repository contains our entry in Smogathon 2015 held in Hub:raum, Kraków at 12-12-2015.
 
+![Real photo of the first mask](https://raw.githubusercontent.com/HackerspaceKRK/smogmask/master/mask.png)
+
 We've managed to provide a solution for generating exact fitting face mask to be cut from neoprene using 3D scan of one's face. 
 
 More about this event:
@@ -12,6 +14,8 @@ More about this event:
 ## Templates
 
 Generator and example template is unfortunately missing for now.
+
+![Generator screenshot](https://raw.githubusercontent.com/HackerspaceKRK/smogmask/master/app.png)
 
 In the mean time, you can try to source proper neoprene - not one which has unreacted polymer residues (at last does not stink), like most of Chinese smog masks. Not every material will be safe for respiratory system, we were using one intended for medical mattresses and it seemed to be OK.
 
