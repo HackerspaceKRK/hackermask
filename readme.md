@@ -15,9 +15,11 @@ More about this event and project:
 
 ## Templates
 
-Generator and example template is unfortunately missing for now.
+Mockup of depth-based generator is located in `depth-sensing.py`. Web generator and templates are located in `web-generator` directory.
+Note that this are not fully functional applications and were made only for presentation purposes. 
 
-![Generator screenshot](https://raw.githubusercontent.com/HackerspaceKRK/hackermask/master/app.png)
+![Depth-based generator screenshot](https://raw.githubusercontent.com/HackerspaceKRK/hackermask/master/app.png)
+![Web generator screenshot](https://raw.githubusercontent.com/HackerspaceKRK/hackermask/master/webapp.png)
 
 In the mean time, you can try to source proper neoprene - not one which has unreacted polymer residues (at last does not stink), like most of Chinese smog masks. Not every material will be safe for respiratory system, we were using one intended for medical mattresses and it seemed to be OK.
 
