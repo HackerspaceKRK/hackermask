@@ -6,9 +6,11 @@ This repository contains our entry in Smogathon 2015 held in Hub:raum, Kraków a
 
 We've managed to provide a solution for generating exact fitting face mask to be cut from neoprene using 3D scan of one's face. 
 
-More about this event:
-* [http://smogathon.pl/](http://smogathon.pl/)
-* [http://wiadomosci.onet.pl/krakow/koniec-24-godzinnej-walki-ze-smogiem-bylo-intensywnie/903vst](http://wiadomosci.onet.pl/krakow/koniec-24-godzinnej-walki-ze-smogiem-bylo-intensywnie/903vst)
+More about this event and project:
+
+* [event site](http://smogathon.pl/)
+* [some news (in Polish)](http://wiadomosci.onet.pl/krakow/koniec-24-godzinnej-walki-ze-smogiem-bylo-intensywnie/903vst)
+* [project description (in Polish)](https://drive.google.com/folderview?id=0B2dC1l5DxqxTN25lTWV3cU9tSG8&usp=sharing&tid=0B2dC1l5DxqxTZHc0aHRvdUl4NWc)
 
 
 ## Templates
